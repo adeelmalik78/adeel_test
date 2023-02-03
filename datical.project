@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="adeel" storedLogicExternal="true" deployThreshold="stopOnError" projectsId="bc782b8f-a517-47a6-8782-bbc8319df8b5" runtimeCredentials="false" multiSchema="false" dbSchemaDefinition="dbDef" enableRowCount="disabled" lastEdited="2023-02-02T18:35:18.748472700Z">
+  <dbDefs xsi:type="dbproject:OracleDbDef" name="REF" driver="oracle.jdbc.OracleDriver" hostname="demo-db1-rhel6.datical.net" port="1521" username="DATICAL_USER" password="REFUSUNBTF9VU0VSX1BX" dbDefsId="18002622-9ba7-300e-a169-8184ba7cb05b" serviceName="PP_DEV.datical.net" enableCompression="false" rowsPerBatch="10000" useWallet="false"/>
+  <plans name="adeel" databaseDefs="//@dbDefs[name='REF']" plansId="ed0d6d54-2b22-329b-baf4-3b06f341896e"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+</dbproject:Project>
